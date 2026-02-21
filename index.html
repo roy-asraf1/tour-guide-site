@@ -7,13 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Heebo', sans-serif; }
-        .hero-bg {
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=1600&q=80');
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
+    body { font-family: 'Heebo', sans-serif; }
+    .hero-bg {
+        
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/cover.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -40,17 +41,30 @@
     <section id="about" class="py-20 container mx-auto px-6">
         <div class="flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80" alt="מדריך טיולים" class="rounded-2xl shadow-xl">
+                <img src="images/about.jpg" alt="בועז הרץ - מורה דרך" class="rounded-2xl shadow-xl w-full h-auto object-cover">
             </div>
-            <div class="md:w-1/2">
+            <div class="md:w-1/2 text-right">
                 <h2 class="text-3xl font-bold mb-6 text-blue-800">קצת עליי</h2>
-                <p class="text-lg leading-relaxed mb-6">
-                  להוסיף תיאור עם בועז.....
+                <p class="text-lg leading-relaxed mb-6 text-gray-700">
+                    נעים מאוד, אני בועז הרץ. מורה דרך מוסמך עם תשוקה עמוקה לנופי ארצנו, להיסטוריה המרתקת ולסיפורים שמסתתרים מאחורי כל אבן. הטיולים שלי הם לא רק מסלול הליכה, אלא חוויה של חיבור לאדמה, לטבע ולאנשים. אני מזמין אתכם לצאת איתי למסע של גילוי, למידה והנאה בפינות היפות ביותר של ישראל.
                 </p>
-                <ul class="space-y-3">
-                    <li class="flex items-center gap-2">✅ מומחה בהדרכות</li>
-                    <li class="flex items-center gap-2">✅ התמחות בטיולי משפחות וקבוצות</li>
-                    <li class="flex items-center gap-2">✅ הכרת כל פינה נסתרת בישראל</li>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">מורה דרך מוסמך בעל ניסיון עשיר</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">התמחות בטיולי משפחות, קבוצות, גמלאים וארגונים</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                    <span class="text-green-500 text-xl">✅</span>
+                    <span class="text-gray-700 font-medium">מומחה במיוחד לאזור הצפון, הגליל והגולן</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">הדרכה חווייתית המותאמת אישית לכל קבוצה</span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,27 +74,31 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-center mb-16 text-blue-800">מסלולים וחוויות</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
                 <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-                    <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover">
+                    <img src="images/jerusalem.jpg" alt="סיור בירושלים" class="h-48 w-full object-cover">
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">סיורי עומק בירושלים</h3>
                         <p class="text-gray-600">בין הסמטאות והסיפורים של העיר העתיקה והחדשה.</p>
                     </div>
                 </div>
+
                 <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-                    <img src="https://images.unsplash.com/photo-1518005020950-ebb8493ad522?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover">
+                    <img src="images/galil.jpg" class="h-48 w-full object-cover">
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">טבע ומים בצפון</h3>
                         <p class="text-gray-600">טיולים רטובים בנחלים ומסלולי פריחה מרהיבים בגולן ובגליל.</p>
                     </div>
                 </div>
+
                 <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-                    <img src="https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover">
+                    <img src="images/negev.jpg" class="h-48 w-full object-cover">
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">מדבר ונווה מדבר</h3>
-                        <p class="text-gray-600">קסם המדבר, טיולי שקיעה ותצפיות כוכבים בנגב.</p>
+                        <h3 class="font-bold text-xl mb-2"> אל עומק הנגב, מסעות בין סלעים ומים</h3>
+                        <p class="text-gray-600">קסם המדבר, טיולים רגליים, שקיעה ותצפיות.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
