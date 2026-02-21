@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מטיילים בדרך ארץ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Heebo', sans-serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-700">בועז הרץ</div>
+            <div class="hidden md:flex space-x-reverse space-x-6">
+                <a href="#about" class="hover:text-blue-600">אודות</a>
+                <a href="#tours" class="hover:text-blue-600">סוגי טיולים</a>
+                <a href="#testimonials" class="hover:text-blue-600">המלצות</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">צרו קשר</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-bg h-[70vh] flex items-center justify-center text-center text-white px-6">
+        <div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">טיולים בדרך ארץ</h1>
+            <p class="text-xl md:text-2xl mb-8">מגלים את ישראל דרך הרגליים</p>
+            <a href="https://wa.me/972505323701" class="inline-block bg-green-500 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-green-600 transition shadow-lg">דברו איתי בוואטסאפ</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80" alt="מדריך טיולים" class="rounded-2xl shadow-xl">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-6 text-blue-800">קצת עלי</h2>
+                <p class="text-lg leading-relaxed mb-6">
+                  להוסיף תיאור עם בועז.....
+                </p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-2">✅ מומחה בהדרכות</li>
+                    <li class="flex items-center gap-2">✅ התמחות בטיולי משפחות וקבוצות</li>
+                    <li class="flex items-center gap-2">✅ הכרת כל פינה נסתרת בישראל</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="py-20 bg-blue-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 text-blue-800">מסלולים וחוויות</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">סיורי עומק בירושלים</h3>
+                        <p class="text-gray-600">בין הסמטאות והסיפורים של העיר העתיקה והחדשה.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="https://images.unsplash.com/photo-1518005020950-ebb8493ad522?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">טבע ומים בצפון</h3>
+                        <p class="text-gray-600">טיולים רטובים בנחלים ומסלולי פריחה מרהיבים בגולן ובגליל.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=600&q=80" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">מדבר ונווה מדבר</h3>
+                        <p class="text-gray-600">קסם המדבר, טיולי שקיעה ותצפיות כוכבים בנגב.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-20 container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-16 text-blue-800">מה מטיילים מספרים</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                <p class="italic mb-4">"היה טיול פשוט מדהים! הידע והסבלנות של המדריך הפכו את היום הזה לחוויה משפחתית בלתי נשכחת."</p>
+                <p class="font-bold text-blue-600">- משפחת לוי, תל אביב</p>
+            </div>
+            <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                <p class="italic mb-4">"הגענו למקומות שבחיים לא היינו מוצאים לבד. הסיפורים מאחורי כל אבן היו פשוט מרתקים."</p>
+                <p class="font-bold text-blue-600">- דני ומיכל, חיפה</p>
+            </div>
+            <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                <p class="italic mb-4">"ארגון למופת, דאגה לכל הפרטים הקטנים והמון הומור. ממליצים בחום לכל קבוצה!"</p>
+                <p class="font-bold text-blue-600">- קבוצת גמלאי "אופק"</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">מוכנים לצאת לדרך?</h2>
+            <p class="text-xl mb-12 opacity-90">צרו קשר עוד היום ונתכנן יחד את הטיול המושלם עבורכם.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <a href="tel:0500000000" class="w-full md:w-auto bg-white text-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">📞 התקשרו עכשיו</a>
+                <a href="https://wa.me/972505323701" class="w-full md:w-auto bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition">💬 וואטסאפ</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-gray-500 text-sm">
+        <p>© 2026 כל הזכויות שמורות לבןעז הרץ</p>
+    </footer>
+
+    <a href="https://wa.me/972505323701" class="fixed bottom-6 left-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition z-50">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+    </a>
+
+</body>
+</html>
